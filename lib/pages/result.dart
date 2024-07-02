@@ -62,11 +62,11 @@ class _ResultState extends State<Result> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        
+
                         Image(image: NetworkImage('https://flagsapi.com/${data["sys"]["country"]}/shiny/64.png')),
 
                         Text(
-                          "suhu: ${data["main"]["feels_like"]} C",
+                          "suhu: ${data["main"]["feels_like"]} °C",
                           style: const TextStyle(fontSize: 20),
                         ),
 
